@@ -7,7 +7,8 @@ import Repository from '../pages/Repository';
 const Routes: React.FC = () => (
   <Switch>
     <Route path="/" exact component={Dashboard} />
-    <Route path="/repository" component={Repository} />
+    {/* :variavel+ -> pega todos os caracteres (no caso não irá achar o "/" é uma outra rota) */}
+    <Route path="/repositories/:repository+" component={Repository} />
   </Switch>
 );
 
