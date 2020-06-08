@@ -10,6 +10,8 @@ Projeto que explora repositórios do Github utilizando a API do mesmo
 - [Styled Components](https://styled-components.com/)
 - [Polished](https://www.npmjs.com/package/polished)
 - [Axios](https://github.com/axios/axios)
+
+Para a padronização do código:
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 
@@ -20,7 +22,7 @@ Primeiro, fazer um clone do projeto:
   git clone https://github.com/LucasMSnts/github-explorer.git
 ```
 
-Depois, instalar as dependências dos projetos, executar ```yarn``` ou ```npm install``` dentro das pastas dos projetos
+Depois, instalar as dependências dos projetos, executar ```yarn``` ou ```npm install``` dentro da pasta do projeto
 
 Para rodar o projeto, executar:
 ``` yarn start  ``` ou ```  npm start ```
